@@ -44,9 +44,6 @@ img {
     margin: auto;
 }
 
-.height {
-    height: 807px !important;
-}
 
 /* * ---- header ----------------------------- */ 
 
@@ -787,10 +784,6 @@ ol li a{
     content: "";
 }
 
-.col-sm-6 {
-    z-index: 2;
-}
-
 .col-md-3 {
     width: 25%;
     position: sticky;
@@ -986,7 +979,7 @@ li.has-submenu .icon-plus-submenu:hover {
     cursor: pointer;
     position: absolute;
     right: 20px;
-    top: 93px;
+    top: 150px;
     margin: auto;
     border: 1px solid transparent;
 }
@@ -1162,10 +1155,6 @@ ul.submenu-links li a {
 .product-img a img {
     max-width: 100%;
     transition: transform 1s ease;
-}
-
-.product {
-    margin-top: 50px;
 }
 
 .product a img:hover {
@@ -1462,3 +1451,243 @@ ul.submenu-links li a {
     font-family: inherit;
 }
 
+/* --------------------------------------tin tuc------------ */
+ 
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+.topnav {
+    overflow: hidden;
+    background-color: #f3ecec;
+}
+
+.topnav a {
+    float: left;
+    color: #bbb3b3;
+    text-align: center;
+    padding: 14px 5px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.topnav a.active {
+    margin-left: 5%;
+}
+ 
+.button-topnav {
+    width: 100%;
+    display: flex;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 20px;
+}
+
+.left{
+    width: 35%;
+    height: 100%;
+    float: left;
+    margin-left: 45px;
+    position: relative;
+    min-height: 1px;
+    /* padding-right: 15px; */
+    padding-left: 15px;
+
+}
+
+.left-one{
+    width: 70%;
+    text-align: center;
+}
+
+.news-latest  {
+    margin: 0 0 30px;
+    position: relative;
+    padding: 20px;
+    border: 1px solid #e3e5ec;
+    background: #fff;
+}
+
+.text {
+    /* float: left; */
+    /* padding-left: 10px; */
+}
+
+.h7 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #000000;
+    display: none;
+}
+
+.text h7::after {
+    content: "";
+    height: 0.8px;
+    background: #000000;
+    display: block;
+    margin: 15px auto 0;
+    transition: all 0.3s linear;
+}
+
+.pic-text{
+    display: flex;
+    border-bottom: 1px #efefef dotted;
+    padding: 15px 0;
+    margin: 0;
+}
+
+.pic-text-ect{
+    display: flex;
+    padding: 15px 0;
+    margin: 0;
+}
+
+.picture {
+    width: 30%;
+    padding-top: 15px;
+    padding-right: 8px;
+    position: relative;
+}
+
+.textt{
+    width: 70%;
+    padding-top: 15px;
+    font-family: 'Quicksand', sans-serif;
+    padding-left: 5px;
+    text-align: left;
+
+
+}
+
+.h8 {
+    margin-bottom: 5px;
+}
+
+.textt h8 {
+    margin: 0 0 5px;
+    font-size: 14.5px;
+    margin-bottom: 5px;
+}
+
+
+.author {
+    font-size: 12px;
+    margin-top: 5px;
+    color: #999;
+}
+
+.textt .author a{
+    color: #999;
+}
+
+.textt a {
+    color: #000;
+    margin-bottom:  5px;
+
+}
+
+.left-two {
+    width: 70%;
+    text-align: center;
+}
+
+.blog-menu{
+    margin: 0 0 30px;
+    position: relative;
+    padding: 20px;
+    border: 1px solid #e3e5ec;
+    background: #fff;
+
+}
+
+.menuList{
+    text-align: left;
+}
+
+.right{
+    width: 80%;
+    height: 100%;
+}
+
+.right-R{
+    margin-bottom: 15px;
+    padding-top: 5px;
+    font-size: 28px;
+}
+
+.blog-distance{
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.col-md-4 {
+    width: 32%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    /* padding-left: 15px; */
+}
+
+.blog-post-thumbnail{
+    overflow: hidden;
+  display: inline-block;
+}
+
+.blog-post-thumbnail img {
+    transition: 0.8s;
+}
+
+.blog-post-thumbnail:hover img {
+    transform: scale(1.2, 1.2);
+}
+
+.coi-md-8{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-md-8 {
+    width: 68%;
+}
+
+.blog-post-title {
+    padding-left: 10px;
+}
+
+.blog-post-meta {
+    margin-bottom: 15px;
+    color: #999;
+    margin-top: 5px;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+
+.author-one{
+    /* padding-left: 10px; */
+    font-size: 14px;
+}
+
+.entry-contentt {
+    font-size: 14px;
+    padding-left: 10px;
+    font-family: 'Quicksand', sans-serif;
+    color: #565454;
+
+}
+
+
+/* --------------------------------gioi thieu--------------------------- */
+
+.distance-right {
+    color: #4e4a4a;
+    padding-bottom: 20px;
+    font-size: 14px;
+}
